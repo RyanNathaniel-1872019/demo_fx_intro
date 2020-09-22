@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="110.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ryan.controller.DemoMainController">
+   <children>
+      <Label layoutX="26.0" layoutY="14.0" text="Input" />
+      <Button layoutX="14.0" layoutY="48.0" mnemonicParsing="false" onAction="#sendQueryAction" prefHeight="25.0" prefWidth="272.0" text="Send" />
+      <TextField fx:id="txtInput" layoutX="77.0" layoutY="10.0" prefHeight="25.0" prefWidth="209.0" />
+      <Label layoutX="21.0" layoutY="84.0" text="Output" />
+      <Label fx:id="lblOutput" layoutX="83.0" layoutY="84.0" text="-" />
+   </children>
+</AnchorPane>
